@@ -1,0 +1,301 @@
+<!doctype html>
+<!-- Re-verify shops (open status/website) before go-live. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Best Wine &amp; Spirits Shops in Naples &amp; Fort Myers (2026) — Florida Finder</title>
+<meta name="description" content="Southwest Florida is quietly serious about wine — a nationally known rare-wine cellar in Naples, a French-import specialist beside a Grand Award restaurant">
+<link rel="canonical" href="https://customwinesandspirits.com/naples-fort-myers.html">
+<style>
+  :root{
+    --paper:#F4F2EC; --ink:#1B211C; --ink-soft:#4A544B;
+    --green:#1F3A2E; --green-2:#2C4E3D; --brass:#A9792F; --brass-lt:#C69A4A;
+    --rule:#D9D4C7; --card:#FBFAF5; --shadow:rgba(31,58,46,.10);
+    --maxw:68rem; --measure:40rem;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --paper:#12170F; --ink:#ECEAE0; --ink-soft:#A7AE9F;
+      --green:#8FBF9E; --green-2:#A9D4B6; --brass:#D0A758; --brass-lt:#E0BD74;
+      --rule:#2A3327; --card:#181E14; --shadow:rgba(0,0,0,.4); }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 1.5rem}
+  a{color:var(--green);text-decoration:none}
+  a:hover{color:var(--brass)}
+  a:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+  header.top{border-bottom:1px solid var(--rule);position:sticky;top:0;
+    background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);z-index:5}
+  .top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.9rem;padding-bottom:.9rem;gap:1rem}
+  .brand{font-family:var(--serif);font-weight:600;font-size:1.12rem;letter-spacing:.01em;color:var(--ink)}
+  .brand .st{color:var(--brass)}
+  nav.reg{display:flex;gap:1.15rem;flex-wrap:wrap;font-size:.82rem;
+    text-transform:uppercase;letter-spacing:.09em;color:var(--ink-soft)}
+  nav.reg a{color:var(--ink-soft)} nav.reg a:hover{color:var(--brass)}
+  @media(max-width:720px){nav.reg{display:none}}
+  .hero{padding:4.5rem 0 3rem}
+  .eyebrow{font-size:.76rem;text-transform:uppercase;letter-spacing:.18em;color:var(--brass);font-weight:600;margin:0 0 1.1rem}
+  h1{font-family:var(--serif);font-weight:600;line-height:1.05;letter-spacing:-.01em;
+    font-size:clamp(2.4rem,5.4vw,4rem);margin:0 0 1.4rem;text-wrap:balance;max-width:20ch}
+  .lede{font-size:clamp(1.05rem,1.8vw,1.28rem);color:var(--ink-soft);max-width:var(--measure);margin:0 0 1.6rem}
+  .lede strong{color:var(--ink);font-weight:600}
+  .disclosure{font-size:.86rem;color:var(--ink-soft);font-style:italic;border-left:2px solid var(--brass);
+    padding:.35rem 0 .35rem 1rem;max-width:var(--measure)}
+  section{padding:3rem 0;border-top:1px solid var(--rule)}
+  .kicker{font-family:var(--serif);font-size:1.7rem;font-weight:600;margin:0 0 .4rem;letter-spacing:-.01em}
+  .sub{color:var(--ink-soft);max-width:var(--measure);margin:0 0 1.8rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem}
+  .card{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:1.25rem 1.3rem;
+    box-shadow:0 1px 0 var(--shadow);transition:transform .15s ease,border-color .15s ease}
+  .card:hover{transform:translateY(-2px);border-color:var(--brass)}
+  .card h3{font-family:var(--serif);font-size:1.16rem;margin:0 0 .35rem;color:var(--ink)}
+  .card p{margin:0;font-size:.92rem;color:var(--ink-soft)}
+  .card .cnt{font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;color:var(--brass);font-weight:600;display:block;margin-top:.7rem}
+  .card.feat{background:linear-gradient(135deg,var(--green),var(--green-2));border-color:transparent}
+  .card.feat h3,.card.feat p{color:#F4F2EC}
+  .card.feat .cnt{color:var(--brass-lt)}
+  .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.6rem}
+  .col h3{font-family:var(--serif);font-size:1.2rem;margin:0 0 .5rem;color:var(--green)}
+  .col p{margin:0;font-size:.95rem;color:var(--ink-soft)}
+  .col .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--brass);font-weight:700}
+  ol.judge{list-style:none;counter-reset:j;margin:0;padding:0;display:grid;gap:1.1rem;max-width:46rem}
+  ol.judge li{counter-increment:j;position:relative;padding-left:3rem}
+  ol.judge li::before{content:counter(j);position:absolute;left:0;top:-.1rem;font-family:var(--serif);
+    font-size:1.5rem;color:var(--brass);font-weight:600;line-height:1}
+  ol.judge b{color:var(--ink)}
+  ol.judge span{color:var(--ink-soft)}
+  details{border-top:1px solid var(--rule);padding:1rem 0}
+  details summary{font-family:var(--serif);font-size:1.08rem;cursor:pointer;list-style:none;color:var(--ink);
+    display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
+  details summary::-webkit-details-marker{display:none}
+  details summary::after{content:"+";color:var(--brass);font-size:1.3rem;line-height:1}
+  details[open] summary::after{content:"\2013"}
+  details p{color:var(--ink-soft);margin:.7rem 0 0;max-width:var(--measure)}
+  footer{border-top:1px solid var(--rule);padding:2.5rem 0 3.5rem;color:var(--ink-soft);font-size:.9rem}
+  footer .byline{font-family:var(--serif);color:var(--ink);font-size:1rem}
+  .note{background:color-mix(in srgb,var(--brass) 12%,transparent);border:1px solid color-mix(in srgb,var(--brass) 35%,transparent);
+    border-radius:8px;padding:.7rem 1rem;font-size:.82rem;color:var(--ink-soft);margin:1rem auto 2rem}
+  .verify{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);font-weight:600}
+  .card .city{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brass);font-weight:600;margin:0 0 .5rem}
+  .card .site{display:inline-block;margin-top:.7rem;font-size:.82rem;font-weight:600}
+  .chains{font-size:.85rem;color:var(--ink-soft);font-style:italic;margin-top:1.4rem}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Wine & Spirits Shops in Naples & Fort Myers (2026)",
+  "datePublished": "2026-07-18",
+  "dateModified": "2026-07-18",
+  "author": {
+    "@type": "Person",
+    "name": "Dan Denson"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Custom Wines & Spirits — Florida Wine & Spirits Finder (published by Primo Liquors)"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Wine & Spirits Shops in Naples & Fort Myers",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "LiquorStore",
+        "name": "Naples Fine Wine",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Naples",
+          "addressRegion": "FL"
+        },
+        "url": "https://naplesfinewine.com"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "LiquorStore",
+        "name": "A to Z Liquor Six Mile",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Fort Myers",
+          "addressRegion": "FL"
+        },
+        "url": "https://atozliquor.com"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "LiquorStore",
+        "name": "Bleu Cellar (at Bleu Provence)",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Old Naples",
+          "addressRegion": "FL"
+        },
+        "url": "https://bleuprovencefinewines.com"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "LiquorStore",
+        "name": "The Wine Merchant",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "North Naples",
+          "addressRegion": "FL"
+        },
+        "url": "https://thewinemerchant.net"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "LiquorStore",
+        "name": "Il Vino Sarto",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Naples",
+          "addressRegion": "FL"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "LiquorStore",
+        "name": "Kaleidoscope Garden Club",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Naples",
+          "addressRegion": "FL"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "LiquorStore",
+        "name": "Vichino’s Café & Wine Bar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bonita Springs",
+          "addressRegion": "FL"
+        }
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Custom Wines &amp; Spirits <span class="st">· Florida Finder</span></a>
+  <nav class="reg" aria-label="Regions">
+    <a href="index.html">Home</a>
+    <a href="miami.html">Miami</a><a href="palm-beach.html">Palm Beach</a><a href="tampa.html">Tampa Bay</a>
+    <a href="orlando.html">Orlando</a><a href="jacksonville.html">Jacksonville</a><a href="naples-fort-myers.html">Naples</a>
+  </nav>
+</div></header>
+
+<main>
+<div class="wrap hero">
+  <p class="eyebrow">The Florida guide · updated 2026</p>
+  <h1>Best Wine &amp; Spirits Shops in Naples &amp; Fort Myers (2026)</h1>
+  <p class="lede">Southwest Florida is quietly serious about wine — a nationally known rare-wine cellar in Naples, a French-import specialist beside a Grand Award restaurant, and a Fort Myers bourbon-society hub.</p>
+  <p class="disclosure">Researched and published by the team at Primo Liquors. We cover shops across Florida on their merits and feature Primo where we genuinely believe it’s a standout.</p>
+</div>
+
+<section><div class="wrap">
+  <h2 class="kicker">Featured shops</h2>
+  <p class="sub">Independent wine and spirits shops in Naples &amp; Fort Myers, chosen for selection, service and fair pricing. Confirm current details with the shop before a trip.</p>
+  <div class="grid">
+    <div class="card">
+    <h3>Naples Fine Wine</h3>
+    <p class="city">Naples</p>
+    <p>Rare and collectible fine wine — 3,000+ selections with many back vintages, all cold-cellar stored, with a provenance guarantee and a national reputation.</p>
+    <a class="site" href="https://naplesfinewine.com" target="_blank" rel="noopener nofollow">naplesfinewine.com ↗</a>
+    </div>
+    <div class="card">
+    <h3>A to Z Liquor Six Mile</h3>
+    <p class="city">Fort Myers</p>
+    <p>Home of the Southwest Florida Bourbon Society, with store barrel picks and single barrels, deep bourbon and tequila including “unicorn” bottles, plus a cigar bar.</p>
+    <a class="site" href="https://atozliquor.com" target="_blank" rel="noopener nofollow">atozliquor.com ↗</a>
+    </div>
+    <div class="card">
+    <h3>Bleu Cellar (at Bleu Provence)</h3>
+    <p class="city">Old Naples</p>
+    <p>A French-import specialist (Bordeaux and Burgundy) with 2,500+ bottles, rare vintages and in-house sommeliers, attached to a Wine Spectator Grand Award restaurant.</p>
+    <a class="site" href="https://bleuprovencefinewines.com" target="_blank" rel="noopener nofollow">bleuprovencefinewines.com ↗</a>
+    </div>
+    <div class="card">
+    <h3>The Wine Merchant</h3>
+    <p class="city">North Naples</p>
+    <p>Curated global wine and boutique producers with personal recommendations and year-round tastings; open since 1982.</p>
+    <a class="site" href="https://thewinemerchant.net" target="_blank" rel="noopener nofollow">thewinemerchant.net ↗</a>
+    </div>
+    <div class="card">
+    <h3>Il Vino Sarto <span class="verify">· verify</span></h3>
+    <p class="city">Naples (Old Naples)</p>
+    <p>A boutique bottle shop of small family-run (especially Italian) estates, housed inside a tailoring studio.</p>
+    </div>
+    <div class="card">
+    <h3>Kaleidoscope Garden Club <span class="verify">· verify</span></h3>
+    <p class="city">Naples</p>
+    <p>Exclusively biodynamic, organic and natural wines; rotating limited-production, with an on-site garden.</p>
+    </div>
+    <div class="card">
+    <h3>Vichino’s Café &amp; Wine Bar <span class="verify">· verify</span></h3>
+    <p class="city">Bonita Springs</p>
+    <p>Small-production wines from independent vineyards, an Italian-white specialty, and wine classes.</p>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="kicker">Finding rare bottles in Naples &amp; Fort Myers</h2>
+  <p class="sub">A to Z Six Mile for allocated bourbon and single barrels; Naples Fine Wine and Bleu Cellar for rare and back-vintage wine.</p>
+  <p class="chains">Chains (context): ABC Fine Wine &amp; Spirits, Total Wine.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="kicker">More Florida regions</h2>
+  <p class="sub">The bottle scene is regional — explore the rest of the finder.</p>
+  <div class="grid">
+    <a class="card feat" href="broward.html"><h3>South Florida · Broward</h3><p>Primo Liquors territory — allocated bourbon, one of FL’s largest tequila selections, deep fine wine.</p><span class="cnt">Featuring Primo Liquors</span></a>
+    <a class="card" href="miami.html"><h3>Miami-Dade</h3><p>Fine-and-rare specialists, natural-wine rooms, and a rare-bourbon collector scene.</p><span class="cnt">8 shops</span></a>
+    <a class="card" href="palm-beach.html"><h3>Palm Beach County</h3><p>A Master Sommelier’s shop, a Boca “largest independent,” a West Palm natural-wine specialist.</p><span class="cnt">6 shops</span></a>
+    <a class="card" href="tampa.html"><h3>Tampa Bay</h3><p>A 1960s allocated-bourbon den, a Wine Enthusiast–listed bottle shop, St. Pete wine markets.</p><span class="cnt">6 shops</span></a>
+    <a class="card" href="orlando.html"><h3>Orlando · Central FL</h3><p>One of the state’s most respected fine-wine merchants plus single-barrel bourbon specialists.</p><span class="cnt">6 shops</span></a>
+    <a class="card" href="jacksonville.html"><h3>Jacksonville · North FL</h3><p>Family-owned bourbon specialists and boutique wine shops with real hospitality.</p><span class="cnt">5 shops</span></a>
+    <a class="card" href="naples-fort-myers.html"><h3>Naples · Fort Myers</h3><p>A nationally known rare-wine cellar, a French-import specialist, a Fort Myers bourbon hub.</p><span class="cnt">7 shops</span></a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <p class="byline">By Dan Denson</p>
+  <p>The Florida Wine &amp; Spirits Finder is researched and published by the team at Primo Liquors. Selection, service, and pricing change constantly — confirm current details with the shop before a trip. Please drink responsibly; 21+.</p>
+</div></footer>
+</body>
+</html>
