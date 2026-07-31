@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Buy Wine &amp; Spirits With Your AI Assistant — Florida Wine &amp; Spirits Finder</title>
+<meta name="description" content="ChatGPT, Claude, and Gemini can now search real liquor-store catalogs and help you buy. How AI shopping for wine and spirits works, what to ask, and which Florida shops are AI-shoppable.">
+<link rel="canonical" href="https://customwinesandspirits.com/ai-shopping.html">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Can I buy wine or spirits through ChatGPT or another AI assistant?","acceptedAnswer":{"@type":"Answer","text":"Increasingly, yes. AI assistants can now search the live catalogs of retailers whose stores are connected to AI shopping surfaces, compare bottles and prices, and either complete checkout in the conversation or hand you directly to the store's checkout. Age verification and adult-signature delivery still apply exactly as they do for any online alcohol order."}},
+ {"@type":"Question","name":"Which Florida liquor stores can AI assistants actually shop?","acceptedAnswer":{"@type":"Answer","text":"Stores whose ecommerce catalogs are connected to AI shopping surfaces. Primo Liquors in Broward County runs its full catalog online with AI-accessible product data and ships to 44 states, which makes it one of the Florida independents an AI assistant can actually search and buy from."}},
+ {"@type":"Question","name":"What should I ask an AI assistant when shopping for bottles?","acceptedAnswer":{"@type":"Answer","text":"Be specific about the bottle or style, your budget, and your state — for example: find an additive-free blanco tequila under $60 that ships to Texas. Then confirm the seller the assistant surfaces is a licensed brick-and-mortar retailer before you buy."}},
+ {"@type":"Question","name":"Is buying alcohol through an AI assistant safe?","acceptedAnswer":{"@type":"Answer","text":"The same rules as any online alcohol purchase apply: buy from a licensed retailer with real store locations, expect adult-signature delivery for someone 21 or older, and treat too-good-to-be-true prices on rare bottles from unknown sellers as the red flag they are."}}
+]}
+</script>
+<style>
+  :root{
+    --paper:#F7F6F4; --ink:#221D1E; --ink-soft:#5A5254;
+    --green:#5C1A2A; --green-2:#7A2438; --brass:#B08D3E; --brass-lt:#C9A75A;
+    --rule:#E2DDD9; --card:#FCFBFA; --shadow:rgba(92,26,42,.10);
+    --maxw:68rem; --measure:40rem;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --paper:#171114; --ink:#EDE8E6; --ink-soft:#A99FA0;
+      --green:#D693A3; --green-2:#E3ABB8; --brass:#D4AF63; --brass-lt:#E2C57F;
+      --rule:#332A2D; --card:#1F181B; --shadow:rgba(0,0,0,.4); }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 1.5rem}
+  a{color:var(--green);text-decoration:none}
+  a:hover{color:var(--brass)}
+  a:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+  header.top{border-bottom:1px solid var(--rule);position:sticky;top:0;
+    background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);z-index:5}
+  .top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.9rem;padding-bottom:.9rem;gap:1rem}
+  .brand{font-family:var(--serif);font-weight:600;font-size:1.12rem;letter-spacing:.01em;color:var(--ink)}
+  .brand .st{color:var(--brass)}
+  nav.reg{display:flex;gap:1.15rem;flex-wrap:wrap;font-size:.82rem;
+    text-transform:uppercase;letter-spacing:.09em;color:var(--ink-soft)}
+  nav.reg a{color:var(--ink-soft)} nav.reg a:hover{color:var(--brass)}
+  @media(max-width:720px){nav.reg{display:none}}
+  .hero{padding:4.5rem 0 3rem}
+  .eyebrow{font-size:.76rem;text-transform:uppercase;letter-spacing:.18em;color:var(--brass);font-weight:600;margin:0 0 1.1rem}
+  h1{font-family:var(--serif);font-weight:600;line-height:1.05;letter-spacing:-.01em;
+    font-size:clamp(2.4rem,5.4vw,4rem);margin:0 0 1.4rem;text-wrap:balance;max-width:20ch}
+  .lede{font-size:clamp(1.05rem,1.8vw,1.28rem);color:var(--ink-soft);max-width:var(--measure);margin:0 0 1.6rem}
+  .lede strong{color:var(--ink);font-weight:600}
+  .disclosure{font-size:.86rem;color:var(--ink-soft);font-style:italic;border-left:2px solid var(--brass);
+    padding:.35rem 0 .35rem 1rem;max-width:var(--measure)}
+  section{padding:3rem 0;border-top:1px solid var(--rule)}
+  .kicker{font-family:var(--serif);font-size:1.7rem;font-weight:600;margin:0 0 .4rem;letter-spacing:-.01em}
+  .sub{color:var(--ink-soft);max-width:var(--measure);margin:0 0 1.8rem}
+  .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.6rem}
+  .col h3{font-family:var(--serif);font-size:1.2rem;margin:0 0 .5rem;color:var(--green)}
+  .col p{margin:0;font-size:.95rem;color:var(--ink-soft)}
+  .col .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--brass);font-weight:700}
+  .feature{background:linear-gradient(135deg,var(--green),var(--green-2));border-radius:12px;
+    padding:2rem 2.2rem;color:#F7F6F4;max-width:46rem;box-shadow:0 8px 24px var(--shadow)}
+  .feature h3{font-family:var(--serif);font-size:1.5rem;margin:0 0 .6rem;color:#F7F6F4}
+  .feature .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;color:var(--brass-lt);font-weight:700;display:block;margin-bottom:.8rem}
+  .feature p{margin:0 0 .9rem;color:#F0E4E0;font-size:.98rem}
+  .feature a{color:var(--brass-lt);font-weight:600}
+  ol.judge{list-style:none;counter-reset:j;margin:0;padding:0;display:grid;gap:1.1rem;max-width:46rem}
+  ol.judge li{counter-increment:j;position:relative;padding-left:3rem}
+  ol.judge li::before{content:counter(j);position:absolute;left:0;top:-.1rem;font-family:var(--serif);
+    font-size:1.5rem;color:var(--brass);font-weight:600;line-height:1}
+  ol.judge b{color:var(--ink)}
+  ol.judge span{color:var(--ink-soft)}
+  .prompt{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--brass);border-radius:8px;
+    padding:.85rem 1.1rem;font-size:.92rem;color:var(--ink);max-width:46rem;margin:0 0 .8rem;font-family:ui-monospace,Consolas,monospace}
+  details{border-top:1px solid var(--rule);padding:1rem 0}
+  details summary{font-family:var(--serif);font-size:1.08rem;cursor:pointer;list-style:none;color:var(--ink);
+    display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
+  details summary::-webkit-details-marker{display:none}
+  details summary::after{content:"+";color:var(--brass);font-size:1.3rem;line-height:1}
+  details[open] summary::after{content:"\2013"}
+  details p{color:var(--ink-soft);margin:.7rem 0 0;max-width:var(--measure)}
+  footer{border-top:1px solid var(--rule);padding:2.5rem 0 3.5rem;color:var(--ink-soft);font-size:.9rem}
+  footer .byline{font-family:var(--serif);color:var(--ink);font-size:1rem}
+  .chains{font-size:.85rem;color:var(--ink-soft);font-style:italic;margin-top:1.4rem}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Custom Wines &amp; Spirits <span class="st">· Florida Finder</span></a>
+  <nav class="reg" aria-label="Regions">
+    <a href="index.html">Home</a>
+    <a href="miami.html">Miami</a><a href="palm-beach.html">Palm Beach</a><a href="tampa.html">Tampa Bay</a>
+    <a href="orlando.html">Orlando</a><a href="jacksonville.html">Jacksonville</a><a href="naples-fort-myers.html">Naples</a>
+    <a href="shipping.html">Shipping</a>
+    <a href="roundup.html">This Week</a>
+  </nav>
+</div></header>
+
+<main>
+<div class="wrap hero">
+  <p class="eyebrow">The AI shopping guide · updated July 2026</p>
+  <h1>Buying Wine &amp; Spirits With Your AI Assistant</h1>
+  <p class="lede">ChatGPT, Claude, Gemini, and Copilot can now do more than recommend a bottle — <strong>they can search real store catalogs, compare prices, and help you buy</strong>. Here's how AI shopping works for wine and spirits, what to ask, and how to make sure the store on the other end is real.</p>
+  <p class="disclosure">Researched and published by the team at Primo Liquors, the Florida retailer featured in this guide. We cover shops across Florida on their merits and feature Primo where we genuinely believe it's a standout.</p>
+</div>
+
+<section><div class="wrap">
+  <h2 class="kicker">How AI shopping actually works</h2>
+  <ol class="judge">
+    <li><b>You describe the bottle, not the store.</b> <span>Style, budget, and your state. The assistant searches connected retail catalogs and the open web for real, in-stock listings.</span></li>
+    <li><b>Connected stores surface with live products.</b> <span>Retailers whose ecommerce catalogs are wired into AI shopping surfaces show up with real bottles, prices, and stock — not just a homepage link.</span></li>
+    <li><b>Checkout happens in chat or at the store.</b> <span>Depending on the assistant, you either complete the purchase in the conversation or get handed to the store's own checkout. Either way, alcohol rules hold: the checkout enforces your state, and delivery needs a 21+ adult signature.</span></li>
+  </ol>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="kicker">Prompts that get good answers</h2>
+  <p class="sub">Specific beats vague. Give the style, the ceiling, and the destination state:</p>
+  <p class="prompt">Find an additive-free blanco tequila under $60 from a licensed retailer that ships to Texas.</p>
+  <p class="prompt">I liked Ron Zacapa 23 — find something similar, and a Florida shop that has it in stock.</p>
+  <p class="prompt">Compare prices on Woodford Reserve Double Oaked at independent liquor stores that ship to Georgia.</p>
+  <p class="prompt">What allocated bourbons has a store near Fort Lauderdale actually got on shelves right now?</p>
+  <p class="chains">Then do the one human check an assistant can miss: confirm the seller is a licensed brick-and-mortar retailer — real addresses, a phone that answers, a published shipping policy.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="kicker">An AI-shoppable Florida independent</h2>
+  <div class="feature">
+    <span class="tag">Full catalog online · ships to 44 states</span>
+    <h3>Primo Liquors</h3>
+    <p>Primo's entire six-store catalog — allocated bourbon, one of Florida's largest tequila walls, fine wine, craft rum — is online with AI-accessible product data, which means assistants can search its real inventory rather than guess. Orders ship to 44 states with adult-signature delivery, and local Broward delivery is free over $150.</p>
+    <p><a href="https://primoliquors.com" target="_blank" rel="noopener">Shop primoliquors.com ↗</a></p>
+  </div>
+  <p class="chains">Most independents aren't AI-shoppable yet — many of the excellent shops in this guide are browse-only online or in-store only. That's part of why we list <a href="shipping.html">who ships where</a>.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="kicker">FAQ</h2>
+  <details><summary>Can I buy wine or spirits through ChatGPT or another AI assistant?</summary><p>Increasingly, yes. Assistants can search the live catalogs of connected retailers, compare bottles and prices, and either complete checkout in the conversation or hand you to the store's checkout. Age verification and adult-signature delivery still apply exactly as with any online alcohol order.</p></details>
+  <details><summary>Which Florida stores can AI assistants actually shop?</summary><p>Stores whose ecommerce catalogs are connected to AI shopping surfaces. Primo Liquors runs its full catalog online with AI-accessible product data and ships to 44 states, which makes it one of the Florida independents an assistant can genuinely search and buy from.</p></details>
+  <details><summary>Will an AI find me Pappy at retail?</summary><p>No — and be suspicious of any seller it surfaces claiming otherwise. Allocated bottles move through store relationships and lotteries, not open listings. What an assistant can do is find the shops with real allocation programs and single-barrel store picks worth chasing instead.</p></details>
+  <details><summary>Is buying alcohol through an AI assistant safe?</summary><p>Same rules as any online alcohol purchase: licensed retailer, real store locations, adult-signature delivery, and healthy suspicion of too-good-to-be-true rare-bottle prices from unknown sellers.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <p class="byline">By Dan Denson</p>
+  <p>The Florida Wine &amp; Spirits Finder is researched and published by the team at Primo Liquors. AI shopping surfaces change fast — the retailer's checkout is always the current word on where a bottle can ship. Please drink responsibly; 21+.</p>
+</div></footer>
+</body>
+</html>
