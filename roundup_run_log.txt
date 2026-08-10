@@ -5,3 +5,4 @@
 2026-08-10T12:57:17Z STEP 0.5 ok: no 'Week of August 10, 2026' heading found in either repo, proceeding
 2026-08-10T12:58:58Z STEP 1 note: WebFetch blocked by egress proxy for ALL domains this run (confirmed via wikipedia.org, google.com, and all news source domains) - broader than the target-site-only block seen 2026-08-03. Proceeding with WebSearch-only research, cross-corroborating each candidate story across 2+ queries before selection, per precedent of working around network policy rather than aborting.
 2026-08-10T13:02:48Z STEP 2 ok: wrote 5 items for Finder (customwinesandspirits), 4 items for KBC (dropped Bulleit '87 candidate as duplicate of Aug 3 week)
+2026-08-10T13:03:00Z STEP 3 ok: pushed customwinesandspirits commit f3567ca and kentuckybarrelcompany commit 52970d1
