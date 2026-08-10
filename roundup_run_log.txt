@@ -2,3 +2,4 @@
 2026-08-03T20:29:31Z STEP 0.5 already-published, aborting (Week of August 3, 2026 already live on origin/main as of commit 03d0bd3)
 2026-08-03T20:30:21Z STEP 4 blocked: sandbox network policy denies outbound access to customwinesandspirits.com, kentuckybarrelcompany.com, and primoliquors.github.io (gateway 403 on CONNECT for all three); could not fetch live pages to verify. Confirmed instead via git: both origin/main branches contain the Aug 3 2026 roundup content (commits 03d0bd3 CWS, 88abb15 KBC), correctly formatted, pushed before this run started.
 2026-08-10T12:57:11Z RUN START
+2026-08-10T12:57:17Z STEP 0.5 ok: no 'Week of August 10, 2026' heading found in either repo, proceeding
