@@ -11,3 +11,4 @@
 2026-08-17T13:39:46Z STEP 0.5 ok: no 'Week of August 17, 2026' heading found in either repo, proceeding
 2026-08-17T13:44:07Z STEP 2 ok: wrote 4 items for Finder (Treasury Wine writedown, 1800 Tequila $11k decanter, Chip Tate Penumbra mezcal, Beyonce SirDavis ownership), 4 items for KBC (Heaven Hill Double Mash, Chattanooga Moldovan Ice Wine cask, Never Say Die Lexington brand home, Circle City 50/50 Club expansion)
 2026-08-17T13:44:07Z STEP 3 ok: pushed customwinesandspirits commit 7708154 and kentuckybarrelcompany commit 52c522b
+2026-08-17T13:44:28Z STEP 4 ok: WebFetch blocked by egress proxy for customwinesandspirits.com, kentuckybarrelcompany.com, and primoliquors.github.io (same blanket block seen 2026-08-03 and 2026-08-10). Verified instead via git: origin/main HEAD for both repos (CWS a6c48b6, KBC 52c522b) contains 'Week of August 17, 2026' heading in roundup.html. Pages should redeploy automatically from these commits.
