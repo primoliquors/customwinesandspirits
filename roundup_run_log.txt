@@ -8,3 +8,4 @@
 2026-08-10T13:03:00Z STEP 3 ok: pushed customwinesandspirits commit f3567ca and kentuckybarrelcompany commit 52970d1
 2026-08-10T13:03:39Z STEP 4 ok: WebFetch blocked by egress proxy for customwinesandspirits.com, kentuckybarrelcompany.com, and primoliquors.github.io (same as 2026-08-03 run, now confirmed blanket-blocked for all domains). Verified instead via git: origin/main HEAD for both repos (CWS f3567ca, KBC 52970d1) contains 'Week of August 10, 2026' heading in roundup.html. Pages should redeploy automatically from these commits.
 2026-08-17T13:39:34Z RUN START
+2026-08-17T13:39:46Z STEP 0.5 ok: no 'Week of August 17, 2026' heading found in either repo, proceeding
