@@ -14,3 +14,4 @@
 2026-08-17T13:44:28Z STEP 4 ok: WebFetch blocked by egress proxy for customwinesandspirits.com, kentuckybarrelcompany.com, and primoliquors.github.io (same blanket block seen 2026-08-03 and 2026-08-10). Verified instead via git: origin/main HEAD for both repos (CWS a6c48b6, KBC 52c522b) contains 'Week of August 17, 2026' heading in roundup.html. Pages should redeploy automatically from these commits.
 2026-08-24T12:39:38Z RUN START
 2026-08-24T12:39:45Z STEP 0.5 ok: not duplicate, proceeding
+2026-08-24T12:45:29Z STEP 1-3 ok: researched, wrote, published 4 items each site (Finder: Diageo layoffs, Gallup poll, Sogrape Port, La Marca/wine market; KBC: Bardstown Bourbon, Maker's Mark Cellar Aged, Redemption bonded bourbon, Diageo layoffs bourbon angle)
