@@ -18,3 +18,4 @@
 2026-08-24T12:49:58Z STEP 4 ok: WebFetch/curl blocked by egress proxy for customwinesandspirits.com, kentuckybarrelcompany.com (same blanket block as every prior run, confirmed via /root/.ccr proxy status: gateway 403 policy denial on CONNECT). Verified instead via git: origin/main HEAD for both repos (CWS dd43c40, KBC 092a1a4) contains 'Week of August 24, 2026' heading in roundup.html. Pages should redeploy automatically from these commits.
 2026-08-31T12:48:22Z RUN START
 2026-08-31T12:48:29Z STEP 0.5 ok: not duplicate, proceeding
+2026-08-31T12:53:25Z STEP 1-3 ok: researched, wrote, published 4 items each site (Finder: Canada tariffs on Crown Royal/Fireball, Circana wine-vs-spirits data, Penumbra mezcal launch, early global harvest; KBC: Canada trade collapse/bourbon export crisis, Sazerac Garrard County acquisition, Four Roses Experimental 002 honey cask, Willett auction record). CWS commit 8e53605, KBC commit f92c776.
