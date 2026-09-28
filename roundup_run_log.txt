@@ -35,3 +35,4 @@
 2026-09-21T12:31:31Z NOTE: caught 2 duplicate stories in KBC draft (Bulleit 87 already covered Week of Aug 3; Maker's Mark Cellar Aged already covered Week of Aug 24) via GitHub file read cross-check after push. Replaced with Angel's Envy Distillery Series and Woodford Kentucky Boy (both new, not previously covered). Fixed commit 7ca1fd3 pushed to kentuckybarrelcompany. Finder repo cross-checked against its own 7-week history - no duplicates found.
 2026-09-21T12:32:13Z RUN END: both sites published (customwinesandspirits 4093189..eb77621, kentuckybarrelcompany 4020ba1..7ca1fd3). Content correct on GitHub main (verified via API). Live-site fetch verification blocked by sandbox network policy this run - flagged to operator via push notification.
 2026-09-28T12:39:48Z RUN START
+2026-09-28T12:39:54Z STEP 0.5 ok: no 'Week of September 28, 2026' heading found in either repo, proceeding
