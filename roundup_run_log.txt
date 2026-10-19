@@ -50,3 +50,4 @@
 2026-10-19T12:05:27Z STEP 0.5 ok: no duplicate for Week of October 19, 2026 in either repo
 2026-10-19T12:10:25Z STEP 1-3 ok: published Week of October 19, 2026 to both repos (customwinesandspirits@477ea5f, kentuckybarrelcompany@b40076b)
 2026-10-19T12:11:22Z STEP 4 fail: egress gateway returns 403 policy denial for customwinesandspirits.com, kentuckybarrelcompany.com, and primoliquors.github.io (confirmed via agent-proxy status, recentRelayFailures). WebFetch/curl cannot reach these hosts in this session -- appears to be a session network-policy restriction, not a GH Pages build delay. Publish itself is confirmed via git (commits pushed to main on both repos); live HTTP verification could not be completed. Flagging for operators: this will block STEP 4 on every run unless the egress allowlist includes these domains.
+2026-10-19T12:11:41Z RUN COMPLETE: both roundups published and pushed; live verification blocked by network policy (see STEP 4 entry)
