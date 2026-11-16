@@ -66,3 +66,4 @@
 2026-11-16T12:10:43Z RUN START
 2026-11-16T12:11:02Z STEP 0.5 ok: no duplicate week found, proceeding
 2026-11-16T12:18:45Z STEP 3 ok: pushed Weekly roundup 2026-11-16 (customwinesandspirits commit 6eb5c47)
+2026-11-16T12:18:52Z STEP 3 ok: pushed Weekly roundup 2026-11-16 (kentuckybarrelcompany commit 4f6396b)
