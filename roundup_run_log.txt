@@ -69,3 +69,4 @@
 2026-11-16T12:18:52Z STEP 3 ok: pushed Weekly roundup 2026-11-16 (kentuckybarrelcompany commit 4f6396b)
 2026-11-16T12:19:13Z STEP 4 fail: sandbox egress proxy blocks customwinesandspirits.com and kentuckybarrelcompany.com (curl: CONNECT tunnel failed 403, connect_rejected - host not allowed for this session). WebFetch tool also returned ENOTFOUND for these hosts earlier in the run. Could not fetch live site or github.io fallback to confirm Pages deploy. Git pushes to main succeeded (cws 6eb5c47 roundup commit, kbc 4f6396b roundup commit) - this is a network-policy limitation of this session, not a publish failure.
 2026-11-16T12:19:40Z RUN END: both roundups published and pushed successfully; STEP 4 live verification could not be performed (see prior entry) due to sandbox egress policy, not a publish failure
+2026-11-23T12:09:45Z RUN START
